@@ -14,20 +14,34 @@ const DataTable = () => {
   return (
     <div>
       <h2>Data Table</h2>
-      <table border="1" cellPadding="10" cellSpacing="0">
+      <table className="bg-slate-400" border="6"  cellPadding="10" cellSpacing="0">
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>City</th>
+            <th>PC Name</th>
+            <th>No</th>
+            <th>Type</th>
+            <th>State</th>
+            <th>Winning Candidate</th>
+            <th>Elector</th>
+            <th>Votes</th>
+            <th>Turnout</th>
+            <th>Margin</th>
+            <th>Margin %</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="justify-center">
           {items.map((item, index) => (
             <tr key={index}>
-              <td>{item.Party}</td>
-              <td>{item. Votes}</td>
-              <td>{item.State}</td>
+              <td>{item.PCName}</td>
+              <td>{item.No}</td>
+              <td>{item.Type}</td>
+              <td>{item. State}</td>
+              <td>{item.WinningCandidate}</td>
+              <td>{item.Electors}</td>
+              <td>{item.Votes}</td>
+              <td>{item.Turnout}</td>
+              <td>{item.Margin}</td>
+              <td>{item.Margin}</td>
             </tr>
           ))}
         </tbody>

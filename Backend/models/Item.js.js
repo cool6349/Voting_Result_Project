@@ -1,12 +1,12 @@
 // models/Item.js
 const mongoose = require("mongoose");
 
-const itemSchema = new mongoose.Schema({
-  Party: String,
-  Votes: Number,
+const userSchema = new mongoose.Schema({
+  PC_Name: String,
   State: String,
+  Winning_Candidate: String,
 });
 
-const Item = mongoose.model("Item", itemSchema);
+const User = mongoose.model("User", userSchema);
 
-module.exports = Item;
+module.exports = User;

@@ -20,7 +20,7 @@ const Home = () => {
             <div className="w-full mb-6 text-white bg-slate-500 h-72">Recent Assembly Election</div>
 
 
-            <div className="w-full text-white bg-zinc-700 h-80">Distribution of votes of major parties Lok Sabha election 1952-2014
+            <div className="w-full ">Distribution of votes of major parties Lok Sabha election 1952-2014
 
                 <div>
                     <DataTable />
