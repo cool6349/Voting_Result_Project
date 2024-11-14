@@ -1,10 +1,14 @@
-// app.js
 const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
 const connectDB = require('./config/db');
-const userRoutes = require('./routes/userRoutes');
+const itemRoutes = require('./routes/itemRoutes');
 require('dotenv').config();
 
-const app = express();
+const app = express(); // Define app here
+
+// Enable CORS
+app.use(cors());
 
 // Middleware
 app.use(express.json());
@@ -13,7 +17,7 @@ app.use(express.json());
 connectDB();
 
 // Routes
-app.use('/api', userRoutes);
+app.use('/api', itemRoutes);
 
 // Start server
 const PORT = process.env.PORT || 5000;
