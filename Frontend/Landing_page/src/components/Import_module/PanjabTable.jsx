@@ -28,7 +28,11 @@ const StateYearPage = () => {
     { PCName: 'Ferozpur', No: 10, Type: 'GEN', State: 'Punjab', Candidate: 'Sher Singh Ghubaya', Party: 'Indian National Congress', Elector: '16,70,008', Votes: '11,25,115', turNout: '67.4%', margin: '3,242', marginPercent: '0.3%' },
     { PCName: 'Gurdaspur', No: 1, Type: 'GEN', State: 'Punjab', Candidate: 'Sukhjinder Singh Randhawa', Party: 'Indian National Congress', Elector: '16,05,204', Votes: '10,77,826', turNout: '67.2%', margin: '82,861', marginPercent: '7.7%' },
     { PCName: 'Hoshiarpur', No: 5, Type: 'SC', State: 'Punjab', Candidate: 'Dr. Raj Kumar Chabbewal', Party: 'Aam Aadmi Party', Elector: '16,01,826', Votes: '9,48,485', turNout: '59.2%', margin: '44,111', marginPercent: '4.7%' },
-    { PCName: 'Jalandhar', No: 4, Type: 'SC', State: 'Punjab', Candidate: 'Charanjit Singh Channi', Party: 'Indian National Congress', Elector: '16,54,005', Votes: '9,89,107', turNout: '59.8%', margin: '24,360', marginPercent: '2.5%' },
+    { PCName: 'Jalandhar', No: 4, Type: 'SC', State: 'Punjab', Candidate: 'Charanjit Singh Channi', Party: 'Indian National Congress', Elector: '16,54,005', Votes: '9,89,107', turNout: '59.8%', margin: '1,75,993', marginPercent: '17.8%' },
+    { PCName: 'Khadoor Sahib', No: 3, Type: 'GEN', State: 'Punjab', Candidate: 'Amritpal Singh', Party: 'Independent', Elector: '16,67,797', Votes: '10,47,165', turNout: '62.8%', margin: '1,97,120', marginPercent: '18.8%' },
+    { PCName: 'Ludhiana', No: 7, Type: 'GEN', State: 'Punjab', Candidate: 'Amrinder Singh Raja Warning', Party: 'Indian National Congress', Elector: '17,58,614', Votes: '10,59,157', turNout: '60.2%', margin: '20,942', marginPercent: '2.0%' },
+    { PCName: 'Patiala', No: 13, Type: 'GEN', State: 'Punjab', Candidate: 'Dr Dharamvira Gandhi', Party: 'Indian National Congress', Elector: '18,06,414', Votes: '11,51,743', turNout: '63.8%', margin: '14,831', marginPercent: '1.3%' },
+    { PCName: 'Sangrur', No: 12, Type: 'GEN', State: 'Punjab', Candidate: 'Gurmeet Singh Meet Hayer', Party: 'Aam Aadmi Party', Elector: '15,56,601', Votes: '10,09,685', turNout: '64.9%', margin: '1,72,560', marginPercent: '17.1%' },
   ];
   const filteredData = data.filter((row) =>
     Object.keys(filters).every((key) =>

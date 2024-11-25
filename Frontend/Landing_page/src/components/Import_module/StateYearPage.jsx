@@ -60,7 +60,7 @@ const StateYearPage = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">PC Election Results for Odisha(2024) {State}, {year}</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">PC Election Results for Odisha(2024) {State} {year}</h1>
 
       {/* Filter Row */}
       <div className="mb-6 grid grid-cols-4 gap-4 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4">

@@ -28,7 +28,12 @@ const AsamTable = () => {
     { PC_Name: 'Guwahati',No: 5, Type: 'GEN', State: 'Assam', Candidate: 'Bijuli Kalita Medhi', Party: 'Bharatiya Janata Party', Electors: '20,36,846', Votes: '15,99,389', turnout: '78.5%', margin: '2,51,090', marginPercent: '15.7%' },
     { PC_Name: 'Jorhat',No: 14, Type: 'GEN', State: 'Assam', Candidate: 'Gaurav Gogoi', Party: 'Indian National Congress', Electors: '17,27,121', Votes: '13,91,160', turnout: '80.6%', margin: '1,44,393', marginPercent: '10.4%' },
     { PC_Name: 'Karimganj',No: 7, Type: 'SC', State: 'Assam', Candidate: 'Kripanath Mallah', Party: 'Bharatiya Janata Party', Electors: '14,12,148', Votes: '11,46,882', turnout: '81.2%', margin: '18,360', marginPercent: '1.6%' },
-    { PC_Name: 'Kaziranga',No: 10, Type: 'GEN', State: 'Assam', Candidate: 'Kamakhya Prasad Tasa', Party: 'Bharatiya Janata Party', Electors: '20,50,126', Votes: '16,29,937', turnout: '79.5%', margin: '2,30,421', marginPercent: '14.1%' }
+    { PC_Name: 'Kaziranga',No: 10, Type: 'GEN', State: 'Assam', Candidate: 'Kamakhya Prasad Tasa', Party: 'Bharatiya Janata Party', Electors: '20,50,126', Votes: '16,29,937', turnout: '79.5%', margin: '2,48,947', marginPercent: '15.3%' },
+    { PC_Name: 'Kokrajhar',No: 1, Type: 'ST', State: 'Assam', Candidate: 'Joyanta Basumatary', Party: 'United Peoples Party Liberal', Electors: '14,84,571', Votes: '12,41,496', turnout: '83.6%', margin: '51,583', marginPercent: '4.2%' },
+    { PC_Name: 'Lakhimpur',No: 12, Type: 'GEN', State: 'Assam', Candidate: 'Pradan Braruah', Party: 'Bharatiya Janata Party', Electors: '15,77,234', Votes: '12,11,214', turnout: '76.8%', margin: '2,01,257', marginPercent: '16.6%' },
+    { PC_Name: 'Nagaon',No: 9, Type: 'GEN', State: 'Assam', Candidate: 'Pradyut Bordoloi', Party: 'Indian National Congress', Electors: '18,17,204', Votes: '15,49,998', turnout: '85.3%', margin: '2,12,231', marginPercent: '13.7%' },
+    { PC_Name: 'Silchar',No: 8, Type: 'GEN', State: 'Assam', Candidate: 'Parimal Saklabaidya', Party: 'Bharatiya Janata Party', Electors: '13,69,578', Votes: '10,89,426', turnout: '79.5%', margin: '2,64,311', marginPercent: '24.3%' },
+    { PC_Name: 'Sonitpur',No: 11, Type: 'GEN', State: 'Assam', Candidate: 'Ranjit Dutta', Party: 'Bharatiya Janata Party', Electors: '16,33,800', Votes: '12,88,468', turnout: '78.9%', margin: '23,61,408', marginPercent: '28.0%' }
 ];
 
 
