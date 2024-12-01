@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import StateYearPage from './components/Import_module/StateYearPage'
 import PanjabTable from "./components/Import_module/PanjabTable";
 import AsamTable from "./components/Import_module/AsamTable";
+import ChhattisGarh from "./components/Import_module/ChhattisGarh";
 import Layout from './components/Import_module/Layout';
 import Home from './components/Import_module/Pages/Home';
 import Summary from './components/Import_module/Pages/Summary';
@@ -36,6 +37,7 @@ function App() {
             <Route path="/state/:odisha/year/:2024" element={<StateYearPage />} />
             <Route path="/state/punjab/year/2024" element={<PanjabTable />} />
             <Route path="/state/assam/year/2024" element={<AsamTable />} />
+            <Route path="/state/chhattisgarh/year/2024" element={<ChhattisGarh />} />
           </Routes>
         </Layout>
 
